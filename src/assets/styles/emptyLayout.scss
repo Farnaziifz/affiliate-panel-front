@@ -1,0 +1,28 @@
+.empty-layout-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.empty-text {
+  display: flex;
+  justify-content: center;
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+  }
+}
+
+.action-container {
+  margin-top: 24px;
+}

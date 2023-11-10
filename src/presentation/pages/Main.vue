@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import MainLayout from '../layouts/MainLayout.vue'
-import BMessage from '@/presentation/components/shared/atoms/BMessage.vue'
+import BMessage from '../../presentation/components/shared/atoms/BMessage.vue'
 
-import { useMainStore } from '@/resources/store/main.store'
+import { useMainStore } from '../../resources/store/main.store'
 
 const mainStore = useMainStore()
 const closeMessage = () => mainStore.closeMessage()

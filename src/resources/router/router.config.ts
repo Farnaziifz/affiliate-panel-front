@@ -1,15 +1,18 @@
 import { createWebHistory, RouterOptions } from 'vue-router'
-import Home from '/src/presentation/pages/Home.vue'
+import Main from '../../presentation/pages/Main.vue'
 
 const config: RouterOptions = {
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: Home,
+      name: 'Main',
+      component: Main,
+      redirect: '/dashboard',
+      children: [
+
+      ],
     },
   ],
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
 }
-
 export default config

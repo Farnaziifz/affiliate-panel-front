@@ -1,0 +1,51 @@
+$primary: #ff003d;
+$secondary: #1894ff;
+$pureWhite: #fff;
+
+@import '../../assets/fonts/font.scss';
+
+* {
+  font-family: YekanBakh;
+}
+
+.background-color-pure-white {
+  background-color: $pureWhite;
+}
+
+.button-secondary {
+  color: $pureWhite !important;
+  background-color: $secondary !important;
+  border: 1px solid $secondary !important;
+
+  &:disabled {
+    background-color: #f6f6f6 !important;
+    border: 1px solid #e2e2e2 !important;
+  }
+}
+
+.ant-switch.ant-switch-rtl {
+  background-color: $secondary !important;
+}
+
+.ant-switch.ant-switch-rtl.ant-switch-checked {
+  background-color: #bdbdbd !important;
+}
+
+.ant-input-group-addon {
+  border-radius: unset;
+  padding: 0 !important;
+  border: 1px solid #d9d9d9 !important;
+
+  &:nth-child(1) {
+    left: -1px !important;
+  }
+
+  &:last-child {
+    right: -1px !important;
+  }
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}

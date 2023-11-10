@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import LogoIcon from '/src/presentation/components/shared/atoms/logoIcon.vue'
+import LogoIcon from '../../shared/atoms/logoIcon.vue'
 import { ref, watch, computed } from 'vue'
 
 import {
