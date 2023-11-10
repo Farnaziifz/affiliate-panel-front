@@ -41,5 +41,5 @@ const changeCollapse = () => {
 </template>
 
 <style lang="sass">
-@import "src/assets/styles/mainLayout"
+@import "../../assets/styles/mainLayout.sass"
 </style>
