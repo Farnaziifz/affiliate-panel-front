@@ -1,4 +1,4 @@
-import Dashboard from '@/presentation/pages/Dashboard/Dashboard.vue'
+import Dashboard from '../../presentation/pages/Dashboard/Dashboard.vue'
 
 export const dashboardConfig = {
   name: 'dashboard',

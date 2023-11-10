@@ -1,5 +1,6 @@
 import { createWebHistory, RouterOptions } from 'vue-router'
 import Main from '../../presentation/pages/Main.vue'
+import { dashboardConfig } from './dashboard.config'
 
 const config: RouterOptions = {
   routes: [
@@ -8,8 +9,7 @@ const config: RouterOptions = {
       name: 'Main',
       component: Main,
       redirect: '/dashboard',
-      children: [
-
+      children: [dashboardConfig
       ],
     },
   ],

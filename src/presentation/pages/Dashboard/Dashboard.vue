@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import ContentLayout from '@/presentation/layouts/ContentLayout.vue'
+import ContentLayout from '../../layouts/ContentLayout.vue'
 
 </script>
 <template>

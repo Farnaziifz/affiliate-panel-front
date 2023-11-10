@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import router from '@/resources/router'
-import ArrowRightIcon from '@/presentation/components/shared/atoms/ArrowRight.vue'
+import router from '../../resources/router'
+import ArrowRightIcon from '../components/shared/molecules/ArrowRight.vue'
 
 const props = defineProps({
   hasReturnButton: {

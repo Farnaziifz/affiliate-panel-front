@@ -1,4 +1,4 @@
-import router from '@/resources/router'
+import router from '../../resources/router'
 
 export const goToPath = (path: string) => {
   router.push(path)
