@@ -1,5 +1,5 @@
 <template>
-  <h1> This is home page </h1>
+  <h1> arsham khar ast </h1>
 </template>
 
 <script>
