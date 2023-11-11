@@ -91,7 +91,7 @@ const changeRoute = (to: string) => {
           >برچسب
         </a-menu-item>
       </a-sub-menu>
-      <a-menu-item key="3" @click="changeRoute('/customers/list')">
+      <a-menu-item key="3" @click="changeRoute('/client/list')">
         <template #icon>
           <appstore-outlined />
         </template>
