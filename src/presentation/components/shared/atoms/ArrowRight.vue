@@ -3,8 +3,9 @@ const props = defineProps({
   color: {
     default: '#000',
     type: String,
-  },
+  }
 })
+
 </script>
 <template>
   <svg
@@ -20,3 +21,4 @@ const props = defineProps({
     />
   </svg>
 </template>
+

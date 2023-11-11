@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import ArrowRight from '../atoms/ArrowRight.vue'
+import ArrowRight from '../atoms/ArrowRight.vue';
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import ArrowRight from '../atoms/ArrowRight.vue'
 
     <slot name="return-button-text">
       <span style="margin: 0 10px">
-       test
+       بازگشت
       </span>
     </slot>
   </div>
