@@ -70,7 +70,6 @@ const RouteToDetail =(id:number)=>{
 const showChangeStatusModal = (status: boolean, id: number) => {
     itemForChangeStatus.value = {status, id}
     showStatusModal.value = !showStatusModal.value
-    console.log(status, name)
 }
 
 </script>
