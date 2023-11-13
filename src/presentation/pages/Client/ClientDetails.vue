@@ -82,7 +82,11 @@ const changestatus = (status: boolean, id: number) => {
               >اطلاعات مشتری</a-typography-title
             >
           </div>
-          <div></div>
+          <div class="grid grid-cols-4 gap-4">
+           <div>01</div>
+  <!-- ... -->
+           <div>09</div>
+         </div>
         </a-tab-pane>
         <a-tab-pane key="2" tab="کیف پول" force-render>
           <div>
