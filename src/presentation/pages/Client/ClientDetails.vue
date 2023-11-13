@@ -4,6 +4,8 @@ import ContentLayout from '../../layouts/ContentLayout.vue'
 import { ref } from 'vue'
 import Wallet from './components/wallet.vue'
 import Orders from './components/orders.vue'
+import Pay from './components/pay.vue'
+import Encouragers from './components/encouragers.vue'
 
 const activeKey = ref('1')
 const showStatusModal = ref(false)
@@ -46,8 +48,15 @@ const changestatus = (status: boolean, id: number) => {
         <a-tab-pane key="3" tab="سفارش ها">
           <Orders />
         </a-tab-pane>
-        <a-tab-pane key="4" tab="پرداخت ها">Content of Tab Pane 3</a-tab-pane>
-        <a-tab-pane key="5" tab="مشوق ها">Content of Tab Pane 3</a-tab-pane>
+        <a-tab-pane key="4" tab="پرداخت ها">
+            <Pay/>
+        </a-tab-pane>
+        <a-tab-pane key="5" tab="مشوق ها">
+            <a-typography-title :level="4" class="mr-2 mb-1"
+              >مشوق ها</a-typography-title
+            >
+            <Encouragers/>
+        </a-tab-pane>
         <a-tab-pane key="6" tab="نظرات">Content of Tab Pane 3</a-tab-pane>
         <a-tab-pane key="7" tab="دسته بندی های عضو"
           >Content of Tab Pane 3</a-tab-pane

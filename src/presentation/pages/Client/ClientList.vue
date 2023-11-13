@@ -85,7 +85,7 @@ const showChangeStatusModal = (status: boolean, id: number) => {
     <template #content-body>
         <a-table :columns="columns"  :data-source="data.data">
             <template #bodyCell="{ column, record }">
-                <div v-if="column.key === 'customerLable' ">
+                <div v-if="column.key === 'customerLable'">
                     <a-tag v-if="record.customerLable === 'ناراضی'" color="red"> {{record.customerLable}}</a-tag>
                     <a-tag v-else-if="record.customerLable === 'راضی'" color="green"> {{record.customerLable}}</a-tag>
                     <a-tag v-else > {{record.customerLable}}</a-tag>
