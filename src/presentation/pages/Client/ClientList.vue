@@ -78,6 +78,7 @@ const showChangeStatusModal = (status: boolean, id: number) => {
   <content-layout >
       <template #content-title>
           <div class="test">
+              <div class="w-10 h-10 khar"></div>
               <p>list moshtarian</p>
               <a-button>salam</a-button>
           </div>
