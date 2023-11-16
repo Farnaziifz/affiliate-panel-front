@@ -22,7 +22,7 @@ const changePathToPreviousRoute = () => returnToPreviousRoute()
       </slot>
     </div>
 
-    <div class="content-header-container">
+    <div class="content-header-container w-full d-flex">
       <h1 class="mb-6">
         <slot name="content-title"></slot>
       </h1>

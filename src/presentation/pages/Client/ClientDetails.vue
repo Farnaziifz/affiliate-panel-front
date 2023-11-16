@@ -21,13 +21,18 @@ const changestatus = (status: boolean, id: number) => {
   <ContentLayout place-return-button>
     <template #content-title>
       <p>جزییات مشتری</p>
-      <a-space wrap>
-        <a-button type="primary" @click="changestatus(data.status, data.id)"
+     
+    </template>
+    <template #content-actions>
+  
+       <div class="d-flex w-full">
+        <a-button type="primary" class="ml-2" @click="changestatus(data.status, data.id)"
           >تغییر وضعیت</a-button
         >
-        <a-tag color="green"><span>فعال</span></a-tag>
-      </a-space>
+        <a-tag color="green" ><span>فعال</span></a-tag>
+       </div>
     </template>
+
     <template #content-body>
       <a-tabs v-model:activeKey="activeKey" class="mr-1">
         <a-tab-pane key="1" tab="اطلاعات مشتری">

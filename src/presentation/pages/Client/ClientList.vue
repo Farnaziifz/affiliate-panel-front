@@ -77,11 +77,13 @@ const showChangeStatusModal = (status: boolean, id: number) => {
 <template>
   <content-layout >
       <template #content-title>
-          <div class="test">
-              <div class="w-10 h-10 khar"></div>
-              <p>list moshtarian</p>
-              <a-button>salam</a-button>
-          </div>
+        <div class="d-flex w-full	">
+          <p>list moshtarian</p>
+        </div>
+      </template>
+      <template #content-actions>
+        <a-button>salam</a-button>
+
       </template>
     <template #content-body>
         <a-table :columns="columns"  :data-source="data.data">

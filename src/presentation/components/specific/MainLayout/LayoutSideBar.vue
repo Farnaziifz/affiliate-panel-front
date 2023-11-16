@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import LogoIcon from '../../shared/atoms/logoIcon.vue'
+// import LogoIcon from '../../shared/atoms/logoIcon.vue'
 import { ref, watch, computed } from 'vue'
 
 import {
@@ -63,7 +63,7 @@ const changeRoute = (to: string) => {
       :sub-menu-close-delay="100"
       mode="inline"
     >
-      <logo-icon class="mt-4" />
+      <!-- <logo-icon class="mt-4" /> -->
       <a-menu-item key="20" @click="changeRoute('/')">
         <template #icon>
           <appstore-outlined />
